@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<manifest>
+    <!-- Remote repositories definition -->
+    <remote name="origin" fetch="https://github.com/embeman"/>
+
+    <default remote="origin" sync-j="4" revision="main" />
+
+    <project name="networking-cpp" path="libnet/" />
+    <project name="hbo_kernel" path="kernel/" />
+
+</manifest>
